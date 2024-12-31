@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmação de Presença - Aniversário da Alicia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>✨ Confirmação de Presença ✨</h1>
+        <p>Você está convidado para celebrar os 15 anos da Alicia com uma Missa de Ação de Graças!</p>
+
+        <p>📍 <strong>Missa:</strong> 10h na Comunidade Sagrada Família, Nova Itaparica.</p>
+        <p>R. Dr. Cecíliano Abel de Almeida, 22 - Nova Itaparica, Vila Velha - ES</p>
+        <!-- <p>🎊 <strong>Festa:</strong> 12h no  Casa do Thiago e Paula, Rua Elis Regina, 102 - Guaranhus.</p>
+        <p>🏊‍♀️ A área da piscina estará liberada para os convidados!</p>
+ -->
+        <form id="rsvp-form">
+            <div id="guest-list">
+                <div class="guest">
+                    <label for="name-1">Nome completo do convidado:</label>
+                    <input type="text" id="name-1" class="name" placeholder="Digite seu nome" required>
+
+                    <label for="presence-1">Este convidado poderá comparecer?</label>
+                    <select id="presence-1" class="presence" required>
+                        <option value="" disabled selected>Escolha uma opção</option>
+                        <option value="sim">Sim, estarei lá!</option>
+                        <option value="nao">Infelizmente, não poderei ir.</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="button" id="add-guest">Adicionar mais um convidado</button>
+            <button type="submit">Confirmar Presença</button>
+        </form>
+
+        <div id="message" class="hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

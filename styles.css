@@ -1,0 +1,98 @@
+body {
+    font-family: 'Georgia', serif;
+    background: radial-gradient(circle, #0b3d91, #0f58a1, #144ead),
+                url('https://cdn.pixabay.com/photo/2016/11/29/03/53/stars-1867616_960_720.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(0, 0, 51, 0.85); /* Azul profundo com opacidade */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    backdrop-filter: blur(8px);
+    border: 2px solid #d0e6ff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #a0c4ff; /* Azul claro */
+    text-shadow: 0 0 15px #e0f7ff, 0 0 30px #9dbfff;
+    margin-bottom: 20px;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    line-height: 1.8;
+    text-shadow: 0 0 5px rgba(173, 216, 230, 0.8);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    text-align: left;
+    color: #d0e6ff;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(173, 216, 230, 0.8);
+    font-size: 1.1rem;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #d0e6ff;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.9); /* Azul muito claro */
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    background: linear-gradient(135deg, #4e79d6, #3066be);
+    color: #fff;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 25px;
+    transition: all 0.4s ease;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+    font-size: 1.1rem;
+    font-family: 'Verdana', sans-serif;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #3066be, #4e79d6);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+}
+
+.hidden {
+    display: none;
+}
+
+#message {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: #a0c4ff;
+    text-shadow: 0 0 10px #e0f7ff, 0 0 20px #9dbfff;
+    font-family: 'Georgia', serif;
+}
+
+.guest {
+    margin-bottom: 20px;
+}
